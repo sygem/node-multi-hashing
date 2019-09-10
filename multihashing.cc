@@ -28,6 +28,7 @@ extern "C" {
     #include "x13.h"
     #include "x15.h"
     #include "x16r.h"
+    #include "x16rv2.h"
     #include "neoscrypt.h"
 }
 
@@ -127,6 +128,10 @@ using namespace v8;
  DECLARE_CALLBACK(x13, x13_hash, 32);
  DECLARE_CALLBACK(x15, x15_hash, 32);
  DECLARE_CALLBACK(x16r, x16r_hash, 32);
+<<<<<<< HEAD
+=======
+ DECLARE_CALLBACK(x16rv2, x16rv2_hash, 32);
+>>>>>>> 0243d4b281b8b14073cfc108700390b5a052b9a6
 
 
 DECLARE_FUNC(scrypt) {
@@ -378,6 +383,10 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "x13", x13);
     NODE_SET_METHOD(exports, "x15", x15);
     NODE_SET_METHOD(exports, "x16r", x16r);
+<<<<<<< HEAD
+=======
+    NODE_SET_METHOD(exports, "x16rv2", x16rv2);
+>>>>>>> 0243d4b281b8b14073cfc108700390b5a052b9a6
     NODE_SET_METHOD(exports, "neoscrypt", neoscrypt);
 }
 
