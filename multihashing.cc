@@ -380,10 +380,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "x13", x13);
     NODE_SET_METHOD(exports, "x15", x15);
     NODE_SET_METHOD(exports, "x16r", x16r);
-<<<<<<< HEAD
-=======
     NODE_SET_METHOD(exports, "x16rv2", x16rv2);
->>>>>>> 0243d4b281b8b14073cfc108700390b5a052b9a6
     NODE_SET_METHOD(exports, "neoscrypt", neoscrypt);
 }
 
