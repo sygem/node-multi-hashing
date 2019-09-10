@@ -128,10 +128,7 @@ using namespace v8;
  DECLARE_CALLBACK(x13, x13_hash, 32);
  DECLARE_CALLBACK(x15, x15_hash, 32);
  DECLARE_CALLBACK(x16r, x16r_hash, 32);
-<<<<<<< HEAD
-=======
  DECLARE_CALLBACK(x16rv2, x16rv2_hash, 32);
->>>>>>> 0243d4b281b8b14073cfc108700390b5a052b9a6
 
 
 DECLARE_FUNC(scrypt) {
